@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    width: 11%;
+}
+
+.navbar-brand img{
+    width: 100%;
+}
+
+.nav-item{
+    padding-left: 25px;
+}
