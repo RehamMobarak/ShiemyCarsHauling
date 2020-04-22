@@ -4,20 +4,41 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.logo{
-    width: 11%;
+/* body{
+    height: 1000px;
+} */
+
+/* Navbar */
+
+.logo {
+    width: 15%;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     width: 100%;
+    padding-left: 45px;
 }
 
-.nav-item{
+.nav-item {
     padding-left: 25px;
 }
 
-#carouselExampleInterval{
-    min-height: 50vh;
-    /* margin-top: 25%; */
-    /* margin-left: 25%; */
-}
+/* End Navbar */
+
+/* Slider */
+
+ .carousel {
+    margin: 4rem;
+    margin-top: 1rem;
+    position: relative;
+  }
+  
+  .carousel-inner img {
+    position: absolute;
+  } 
+  
+  .carousel-item {
+    height: 33rem;
+  } 
+
+/* End Slider */
