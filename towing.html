@@ -11,35 +11,38 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="logo">
-            <a class="navbar-brand" href="#"><img src="./WhatsApp Unknown 2020-04-21 at 11.35.01 PM/logo.png"
-                    alt="towingLogo"></a>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="container p-0">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="logo">
+                <a class="navbar-brand" href="#"><img src="./WhatsApp Unknown 2020-04-21 at 11.35.01 PM/logo.png"
+                        alt="towingLogo"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <!-- End Navabar -->
 
     <!-- Slider -->
+    <div class="container">
         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-interval="1400">
@@ -64,7 +67,36 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+    </div>
     <!-- End Slider -->
+
+
+    <!-- contact -->
+    <div class="container">
+        <div class="row contact">
+
+            <div class="col-12 contact-header">
+                <h2>How to contact us?</h2>
+            </div>
+
+            <div class="row contact-content d-flex justify-content-around">
+
+                <div class="col-5 contact-image">
+                    <img src="WhatsApp Unknown 2020-04-21 at 11.35.01 PM/1.jpeg" alt="contact-img">
+                </div>
+
+                <div class="col-6 contact-text">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, consectetur corrupti.
+                        Ducimus
+                        iure atque magni possimus eos culpa voluptatem, facere rerum vel, excepturi, laboriosam sapiente
+                        corrupti officiis doloribus sequi dolore?</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end contact -->
 
 
     <script src="jquery-3.4.1.min.js"></script>
