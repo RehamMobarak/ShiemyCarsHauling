@@ -46,6 +46,10 @@
 
 /* contact */
 
+.contact {
+    padding-bottom: 4rem;
+}
+
 .contact-image img {
     width: 100%;
     border-radius: 10px;
@@ -54,6 +58,11 @@
 .contact-header {
     margin-bottom: 4rem;
 }
+
+.contact-header h1 {
+    color: rgb(157, 56, 74);
+}
+
 
 .contact-content {
     display: flex;
@@ -64,12 +73,16 @@
     font-size: 25px;
 }
 
-/* .contact-text p {
-    color: red;
+.contact-text h2 {
+    margin-bottom: 1rem;
 }
 
-.contact-text span {
-    color: blue;
-} */
+.contact-text p {
+    color: rgb(151, 150, 150);
+}
+
+.contact-text .keyword {
+    color: rgb(157, 56, 74);
+}
 
 /* end contact */
