@@ -93,3 +93,9 @@
 }
 
 /* end contact */
+
+@media screen and (max-width: 768px) {
+    .carousel-item{
+        height:15rem;
+    }
+}
