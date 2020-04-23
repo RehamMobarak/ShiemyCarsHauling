@@ -1,7 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* body{
@@ -27,31 +27,49 @@
 
 /* Slider */
 
- .carousel {
+.carousel {
     /* margin: 4rem; */
     margin-top: 1rem;
     position: relative;
     margin-bottom: 4rem;
-  }
-  
-  .carousel-inner img {
+}
+
+.carousel-inner img {
     position: absolute;
-  } 
-  
-  .carousel-item {
+}
+
+.carousel-item {
     height: 33rem;
-  } 
+}
 
 /* End Slider */
 
 /* contact */
 
-.contact-image img{
+.contact-image img {
     width: 100%;
-}
-.contact-image{
-    width: 50%;
+    border-radius: 10px;
 }
 
+.contact-header {
+    margin-bottom: 4rem;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+}
+
+.contact-text {
+    font-size: 25px;
+}
+
+/* .contact-text p {
+    color: red;
+}
+
+.contact-text span {
+    color: blue;
+} */
 
 /* end contact */
