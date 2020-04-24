@@ -99,3 +99,42 @@
         height:15rem;
     }
 }
+
+/* reviews */
+
+.checked {
+    color: orange;
+  }
+
+.reviews{
+  padding: 15px;
+  /* max-width: 576px; */
+  margin: 20px;
+}
+
+.review-item{
+  background-color: white;
+  padding: 25px;
+  margin: 15px;
+  box-shadow: 1px 1px 5px #343a40;
+  /* width: 50%; */
+  /* max-height: 100px; */
+}
+
+.review-item .review-date{
+  color: #cecece;
+}
+.review-item .review-text{
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 5px;
+  color: #343a40;
+}
+
+.review-item .reviewer{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #cecece;
+}
+
+/* end reviews */
