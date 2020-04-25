@@ -4,14 +4,16 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* body{
-    height: 1000px;
-} */
-
 /* Navbar */
 
 .logo {
     width: 15%;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgb(157, 56, 74);
+
+
 }
 
 .navbar-brand img {
@@ -139,6 +141,7 @@
 
 /* end reviews */
 
+/* MEDIA QUIERIES */
 @media screen and (max-width: 768px) {
     .carousel-item {
         height: 15rem;
@@ -151,4 +154,10 @@
     .contact-text h2 {
         padding-top: 25px;
     }
+
+    .logo {
+        width: 30%;
+    }
 }
+
+/* END MEDIA QUIERIES */
