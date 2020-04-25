@@ -72,14 +72,17 @@
 .contact-text {
     font-size: 25px;
 }
-.contact-text i{
+
+.contact-text i {
     font-size: 35px;
     padding-left: 20px;
     color: rgb(157, 56, 74);
 }
-.contact-text i:hover{
+
+.contact-text i:hover {
     color: rgb(23, 167, 23);
 }
+
 .contact-text h2 {
     margin-bottom: 1rem;
 }
@@ -94,47 +97,58 @@
 
 /* end contact */
 
-@media screen and (max-width: 768px) {
-    .carousel-item{
-        height:15rem;
-    }
-}
-
 /* reviews */
 
 .checked {
     color: orange;
-  }
-
-.reviews{
-  padding: 15px;
-  /* max-width: 576px; */
-  margin: 20px;
+    font-size: 15px;
 }
 
-.review-item{
-  background-color: white;
-  padding: 25px;
-  margin: 15px;
-  box-shadow: 1px 1px 5px #343a40;
-  /* width: 50%; */
-  /* max-height: 100px; */
+.reviews {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(248, 246, 246);
+    overflow: hidden;
+    margin-bottom: 4rem;
 }
 
-.review-item .review-date{
-  color: #cecece;
-}
-.review-item .review-text{
-  font-size: 16px;
-  font-weight: normal;
-  margin-top: 5px;
-  color: #343a40;
+.review-item {
+    background-color: white;
+    padding: 16px;
+    margin: 15px;
+    box-shadow: 1px 1px 5px #b9b9b9;
 }
 
-.review-item .reviewer{
-  width: 100px;
-  height: 100px;
-  border: 1px solid #cecece;
+.review-item .review-date {
+    color: #cecece;
+}
+
+.review-item .review-text {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+}
+
+.review-item .reviewer {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #cecece;
 }
 
 /* end reviews */
+
+@media screen and (max-width: 768px) {
+    .carousel-item {
+        height: 15rem;
+    }
+
+    .contact-text {
+        padding-left: 29px;
+    }
+
+    .contact-text h2 {
+        padding-top: 25px;
+    }
+}
