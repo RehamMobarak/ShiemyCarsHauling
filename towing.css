@@ -111,7 +111,6 @@
     padding-bottom: 15px;
     background-color: rgb(248, 246, 246);
     overflow: hidden;
-    margin-bottom: 4rem;
 }
 
 .review-item {
@@ -141,6 +140,36 @@
 
 /* end reviews */
 
+/* footer */
+
+footer {
+    background-color: rgb(190, 87, 106);
+    color: white;
+}
+
+.footerlogo {
+    width: 40%;
+}
+
+.footerlogo img {
+    width: 100%;
+}
+
+.contact-footer ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.contact-footer i {
+    font-size: 20px;
+}
+
+.about p {
+    font-size: 13px;
+}
+
+/* end footer */
+
 /* MEDIA QUIERIES */
 @media screen and (max-width: 768px) {
     .carousel-item {
@@ -157,6 +186,10 @@
 
     .logo {
         width: 30%;
+    }
+
+    .contact-footer{
+        padding-top: 10px;
     }
 }
 
